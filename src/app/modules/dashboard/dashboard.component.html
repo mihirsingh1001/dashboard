@@ -1,0 +1,32 @@
+<div>
+   <app-widget-area></app-widget-area>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+ <p class="top">Top Gainer</p>
+<div fxLayout="row" fxLayoutAlign="space-between center" fxlayoutGap="20px" class="stats-card">
+    <mat-card fxFlex="90">
+        <app-widget-card label="US Market" total="30k" percentage="60"></app-widget-card>
+    </mat-card>
+</div>
+   <div fxLayout="row" fxLayoutAlign="space-between center" fxlayoutGap="20px" class="stats-card">    
+    <mat-card fxFlex="90">
+        <app-widget-card label="European Market" total="25k" percentage="50"> </app-widget-card>
+    </mat-card>
+    </div>  
+  <br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<p class="pie">Pie Chart</p>
+<div fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxFlex="100">
+    <app-widget-pie> </app-widget-pie>
+    </div>
+</div>
